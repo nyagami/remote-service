@@ -94,7 +94,6 @@ class BackupHandler:
             'NovelCategory': (slash_join(self.backup_dir, 'Data', 'NovelCategory.json'), None),
             'Setting': (slash_join(self.backup_dir, 'Data', 'Setting.json'), None),
             'Chapter': (slash_join(self.backup_dir, 'Data', 'Chapters'), None),
-            'Plugin': (slash_join(self.backup_dir, 'Data', 'Plugins'), 'utf-8'),
             'Download': (slash_join(self.backup_dir, 'Download'), 'base64'),
             'Theme':(slash_join(self.backup_dir, 'Data', 'Theme.json'), None)
         }
